@@ -1,7 +1,13 @@
 Development information:
 - IDE: Qt Creator 2.0.1
 - Qt version: 4.7.1
-- Platform: Linux
+- Tested platforms: Linux (I tried a windows build but qt comes with no mysql support).
+
+Dependencies:
+- qt 4.? with mysql support
+- qxt will be added once ssh tunneling is implemented
+- libxml2 will be added once ssh tunneling is implemented
+
 
 What works:
 
@@ -26,3 +32,7 @@ Next steps:
 ?. Drag and drop for some elements (tables, databases, schemas, etc) from/to filesystem.
 ?. Drag and drop for some elements between different instances of the application (schemas, tables, etc).
 ?. Password security (now they are stored in plain text)
+?. Implement "make install"
+?. Package it for windows with mysql support.
+?. Package it for mac.
+?. Make a logo.
