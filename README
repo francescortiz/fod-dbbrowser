@@ -1,0 +1,28 @@
+Development information:
+- IDE: Qt Creator 2.0.1
+- Qt version: 4.7.1
+- Platform: Linux
+
+What works:
+
+- Store connections
+- Perform SQL queries.
+- Rudimanetary SQL syntax highlighting (missing commands)
+- Browse schemas
+- Browse tables
+- Browse and edit records (Qt native mode)
+
+
+Next steps:
+
+1. Implement SSH tunneling.
+?. Add missing commands to syntax higlighter.
+?. Improve handling of different field types for record views.
+?. User management.
+?. Table management.
+?. Schema management.
+?. Table relations management.
+?. Data importing/exporting.
+?. Drag and drop for some elements (tables, databases, schemas, etc) from/to filesystem.
+?. Drag and drop for some elements between different instances of the application (schemas, tables, etc).
+?. Password security (now they are stored in plain text)
