@@ -11,7 +11,6 @@ public:
 
 protected:
     virtual void keyPressEvent(QKeyEvent *e);
-    virtual void keyReleaseEvent(QKeyEvent *e);
 
 signals:
     void controlEnterPressed();

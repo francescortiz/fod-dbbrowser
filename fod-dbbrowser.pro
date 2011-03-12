@@ -18,7 +18,9 @@ SOURCES += main.cpp\
     dbconnectiondescriptor.cpp \
     sqleditor.cpp \
     sqlsyntaxhighlighter.cpp \
-    dbmisc.cpp
+    dbmisc.cpp \
+    sqloutputtable.cpp \
+    selectablelist.cpp
 
 HEADERS  += dbwindow.h \
     dbsyncronizewindow.h \
@@ -27,7 +29,9 @@ HEADERS  += dbwindow.h \
     dbconnectiondescriptor.h \
     sqleditor.h \
     sqlsyntaxhighlighter.h \
-    dbmisc.h
+    dbmisc.h \
+    sqloutputtable.h \
+    selectablelist.h
 
 FORMS    += dbwindow.ui \
     dbsyncronizewindow.ui \
